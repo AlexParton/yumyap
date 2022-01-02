@@ -1,0 +1,50 @@
+footer {
+    background: #1c1c1b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: var(--padding);
+    color: var(--maincolor);
+}
+
+footer img {
+    max-width: 50px;
+}
+
+.Brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 2vw var(--Hpadding) 4vw;
+}
+
+.Brand h1 {
+    font-size: var(--font30);
+    font-weight: 300;
+}
+
+.Brand h2 {
+    font-family: var(--handFont);
+    font-size: var(--font25);
+    font-weight: 300;
+}
+
+.Brand p {
+    font-size: var(--font11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Brand p span {
+    width: auto;
+    transform: translateY(1px);
+}
+
+@media (min-width:660px) {
+    .Brand {
+        padding: 10px var(--Hpadding) 30px;
+    }
+}

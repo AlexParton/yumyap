@@ -1,0 +1,112 @@
+.EditButton {
+    position: absolute;
+    width: auto;
+    right: var(--Hpadding);
+    font-size: var(--font9);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.Counter {
+    font-size: var(--font12);
+}
+
+.ProfileHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+.DataContainer{
+    width: auto;
+    max-width: 60vw;
+}
+
+.ImgContainer{
+    width: 16vw;
+    height: 16vw;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #b5b5b5;
+}
+
+.ProfileHeader h1 {
+    font-size: var(--font28);
+    text-align: left;
+}
+
+.Selectors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Selectors button {
+width: auto;
+padding: 2vw;
+color: #7d8b5e;
+}
+
+.Selectors .Active {
+    color: var(--black);
+}
+
+.EditButton svg {
+    font-size: var(--font25);
+}
+
+@media (min-width:660px) {
+   .Selectors button {
+        padding: 10px;
+    }
+
+    .ProfileHeader {
+        gap: 25px;
+    }
+    
+    .ImgContainer {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width:1000px) {
+    .ProfileHeader {
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 10px;
+    }
+
+    .DataContainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .ProfileHeader h1 {
+        text-align: center;
+    }
+
+    .ImgContainer {
+        width: 100%;
+        background: none;
+        border-radius: 0;
+        height: auto;
+    }
+
+    .ProfileHeader img {
+        border-radius: 0;
+        width: 180px;
+    }
+
+    .Selectors {
+        justify-content: center;
+    }
+}

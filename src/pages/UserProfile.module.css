@@ -1,0 +1,35 @@
+.Form {
+    padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.Action {
+    margin: 5vw 0;
+}
+
+.UserImgHolder {
+    width: 80%;
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 180px;
+}
+
+.Logout {
+    margin: 3vw auto 6vw;
+    font-size: var(--font10);
+}
+
+.Topchef {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1vw;
+    font-size: var(--font11);
+    font-weight: 300;
+    color: var(--warning);
+}

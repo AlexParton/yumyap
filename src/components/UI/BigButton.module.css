@@ -1,0 +1,19 @@
+button.Button {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    box-shadow: 1px 1px 7px #00000069;
+    position: relative;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+button.Button svg {
+    color: var(--black);
+}
+
+@media (min-width:1000px) {
+    button.Button {
+        margin: 0 300px;
+    }
+}

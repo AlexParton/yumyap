@@ -1,0 +1,36 @@
+.RecetasWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 40vh;
+    border-top: 1px solid var(--black);
+}
+
+.Receta {
+    width: 33%;
+    height: 26vw;
+    background: var(--black);
+    overflow: hidden;
+    display: flex;
+}
+
+.Receta a {
+    display: flex;
+    padding: 2px;
+}
+
+@media (min-width:660px) {
+    .RecetasWrapper {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width:1000px) {
+    .Receta {
+        width: 25%;
+        height: 170px;
+    }
+
+}
+

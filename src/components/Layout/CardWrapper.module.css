@@ -1,0 +1,21 @@
+.CardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+@media (min-width:660px) {
+    .CardWrapper {
+        gap: 30px;
+    }
+}
+
+@media (min-width:1000px) {
+    .CardWrapper {
+        justify-content: space-between;
+    }
+
+    .CardWrapper li {
+        width: 48%;
+    }
+}

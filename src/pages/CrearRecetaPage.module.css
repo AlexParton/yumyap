@@ -1,0 +1,95 @@
+.Form {
+    padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.Action {
+    margin: 5vw 0;
+}
+
+.UserImgHolder {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Subida {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    text-align: center;
+    justify-content: center;
+    padding: 14vh var(--Hpadding) 40vh;
+    font-size: var(--font28);
+    font-weight: 900;
+}
+
+.Subida span {
+    font-size: var(--font16);
+    font-weight: 500;
+}
+
+.ErrorPop {
+    margin: 0 0 3vw;
+    color: var(--warning);
+}
+
+.Trash {
+    margin: 10vw auto 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    gap: 2vw;
+    color: var(--warning);
+}
+
+.AreYouSure {
+    padding: 5vw 0 0;
+    color: var(--warning);
+}
+
+.AreYouSure div {
+    display: flex;
+    margin: 5vw 0 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AreYouSure div button {
+    width: 40%;
+    height: 11vw;
+    border-radius: 8px;
+    border: 1px solid
+}
+
+.AreYouSure div button:nth-child(1) {
+    color: var(--black);
+}
+
+@media (min-width:660px) {
+    .Form {
+        gap: 40px;
+    }
+
+    .Trash {
+        margin: 30px auto 0;
+        gap: 8px;
+    }
+}
+
+@media (min-width:1000px) {
+    .SelectWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 600px;
+    }
+
+    .SelectWrapper div {
+        width: 32%;
+    }
+}

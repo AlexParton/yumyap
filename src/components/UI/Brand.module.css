@@ -1,0 +1,39 @@
+.Brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10vw var(--Hpadding) 4vw;
+}
+
+.Brand h1 {
+    font-size: var(--font38);
+    font-weight: 700;
+}
+
+.Brand h2 {
+    font-family: var(--handFont);
+    font-size: var(--font35);
+    font-weight: 300;
+}
+
+@media (min-width:660px) {
+    .Brand {
+        padding: 25px var(--Hpadding) 20px;
+    }
+}
+
+@media (min-width:1000px) {
+    .Brand h1 {
+        font-size: 90px;
+        font-weight: 400;
+        line-height: 1;
+        margin-top: 20px;
+    }
+
+    .Brand h2 {
+        font-size: 60px;
+        line-height: 1;
+    }
+    
+}

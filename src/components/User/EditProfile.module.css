@@ -1,0 +1,33 @@
+.Form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.Action {
+    margin: 5vw 0;
+}
+
+.UserImgHolder {
+    width: 60vw;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 60vw;
+}
+
+@media (min-width:660px) {
+    .Form {
+        gap: 25px;
+    }
+    
+    .Action {
+        margin: 25px 0;
+    }
+    
+    .UserImgHolder {
+        width: 200px;
+        height: 200px;
+    }
+}

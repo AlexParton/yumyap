@@ -1,0 +1,11 @@
+button.Button {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 100%;
+    box-shadow: 1px 1px 7px #00000069;
+    overflow: hidden;
+}
+
+button.Button svg {
+    color: var(--black);
+}

@@ -1,0 +1,19 @@
+.Form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    text-align: center;
+}
+
+.Cta2 {
+    margin-top: 5vw;
+    font-size: var(--font14);
+}
+
+@media (min-width:660px) {
+    .Form {
+        max-width: 400px;
+        margin: auto;
+        gap: 25px;
+    }
+}

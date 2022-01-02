@@ -1,0 +1,14 @@
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font16);
+    height: 11vw;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #a7a7a7;
+    max-height: 45px;
+    max-width: 600px;
+    margin: auto;
+}

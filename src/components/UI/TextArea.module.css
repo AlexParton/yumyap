@@ -1,0 +1,56 @@
+.TextArea {
+    background: var(--accent);
+    position: relative;
+    max-width: 600px;
+}
+
+.TextArea label {
+   position: static;
+    border-bottom: 1px dotted rgb(168, 168, 168);
+    padding: 2vw 0;
+}
+
+.TextArea textarea{
+    padding: 3vw;
+    text-align: left;
+}
+
+.IngList {
+    list-style-type: disc;
+    padding-left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin: 2vw 0;
+    text-align: left;
+}
+
+.Preparacion {
+    font-size: var(--font14)!important;
+    text-align: left;
+    padding: 1vw 4vw;
+}
+
+.Preparacion::first-letter {
+    text-transform: capitalize;
+}
+
+@media (min-width:660px) {
+    .TextArea label {
+         padding: 12px 0;
+     }
+
+     .TextArea textarea{
+        padding: 15px;
+    }
+
+    .IngList {
+        padding-left: 15px;
+        gap: 12px;
+        margin: 12px 0;
+    }
+    
+    .Preparacion {
+        padding: 5px 20px;
+    }
+}

@@ -1,0 +1,39 @@
+.RecipeCard {
+    position: relative;
+    height: 30vw;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 9px #0000007d;
+}
+
+.RecipeCard img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: brightness(0.6);
+}
+
+.RecipeCard h2 {
+    font-weight: 900;
+    font-size: var(--font32);
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 0 15px black;
+    color: var(--grey);
+    z-index: 2;
+    padding: 2vw;
+    line-height: 1;
+}
+
+@media (min-width:660px) {
+    .RecipeCard {
+        height: 150px;
+    }
+
+    .RecipeCard h2 {
+        padding: 20px;
+    }
+}

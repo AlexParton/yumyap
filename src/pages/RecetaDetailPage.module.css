@@ -1,0 +1,186 @@
+.ImageWrapper {
+    position: fixed;
+    height: calc(60vw + 5vw);
+    overflow: hidden;
+    top: var(--headerHeight);
+    z-index: -1;
+    background: #fdfff1;
+}
+
+.ImageWrapper img {
+    transform: translateY(-5vw);
+}
+
+.Body {
+    padding: 5vw var(--Hpadding) var(--Vpadding);
+    margin-top: calc(var(--headerHeight) + 60vw);
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    background-color: #fdfff1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%230024f9' fill-opacity='0.08'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }   
+
+.Body svg {
+    font-size: var(--font15);
+}  
+
+.Heading div, .Info div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+}
+
+.Heading div span, .Info div span {
+    width: auto;
+}
+
+.Info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 4vw 0;
+    border-top: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.Info div span {
+    gap: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Info div span a {
+    font-style: italic;
+    width: auto;
+}
+
+.Ingredientes ul {
+    list-style-type: disc;
+    padding-left: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin: 2vw 0;
+}
+
+.Descripcion p {
+    font-size: var(--font20);
+    margin: 0 0 2vw 0;
+
+}
+
+.Descripcion section p {
+    font-size: var(--font15);
+    line-height: 1.4;
+}
+
+.HeartWrapp {
+    position: absolute;
+    z-index: 10;
+    top: var(--Vpadding);
+    right: var(--Hpadding);
+    width: 10vw;
+    height: 10vw;
+    background: #ffffff73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.HeartWrapp svg {
+    font-size: var(--font28);
+}
+
+.RecetaInfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 0 0;
+    gap: 3vw
+}
+
+@media (min-width:660px) {
+    .ImageWrapper {
+        height: 350px;
+    }
+    
+    .ImageWrapper img {
+        transform: translateY(-30px);
+    }
+    
+    .Body {
+        padding: 20px var(--Hpadding) var(--Vpadding);
+        margin-top: calc(var(--headerHeight) + 330px);
+        gap: 25px;
+        background-image: none;
+      }   
+    
+    
+    .Heading div, .Info div {
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .Info {
+        gap: 10px;
+        padding: 20px 0;
+    }
+    
+    .Info div span {
+        gap: 10px;
+    }
+    
+    .Ingredientes ul {
+        padding-left: 25px;
+        gap: 15px;
+        margin: 15px 0;
+    }
+    
+    .Descripcion p {
+        margin: 0 0 15px 0;
+    }
+    
+    .HeartWrapp {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .HeartWrapp svg {
+        font-size: 30px;
+    }
+    
+    .RecetaInfo {
+        margin: 10px 0 0;
+        gap: 15px
+    }
+
+    .Descripcion section p {
+        font-size: var(--font16);
+        line-height: 1.4;
+    }
+}
+
+@media (min-width:1000px) {
+    .Body {
+        padding: var(--padding);
+        margin-top: 0;
+    }
+
+    .ImageWrapper {
+        height: 400px;
+        position: static;
+        padding: var(--padding);
+    }
+
+    .HeartWrapp {
+        top: 510px;
+        right: 10%;
+    }
+
+    .ImageWrapper img {
+        transform: translateY(-80px);
+    }
+}
